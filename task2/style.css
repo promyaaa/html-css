@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.item-details {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item-details h2 {
+    color: white;
+    padding-right: 50px;
+}
+
+.item-details img {
+    color: white;
+    padding-left: 50px;
+}
+
+.item-details.watch {
+    background-color: #0DCBF0;
+}
+.item-details.shoes {
+    background-color: #0E6FFD;
+}
+.item-details.bag {
+    background-color: #198754;
+}
